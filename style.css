@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(243, 148, 167);
+
+}
+
+
+.flex-box{
+    width: 80px;
+    border: 5px solid pink;
+    height: 80px;
+    box-shadow: 0 0 0 2px;
+    font-size: 78px;
+    text-align: center;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.container{
+    font-family:cursive;
+    text-align: center;
+}
+#restart{
+    margin-top: 4%;
+    font-weight: 900;
+    font-size: x-large;
+    background-color: darkcyan;
+    border-radius: 9px;
+    
+    
+}
+#restart:hover{
+    background-color: green;
+    cursor: pointer;
+    font-size:xx-large;
+}
+    .boxes{
+display: grid;
+width: 250px;
+grid-template-columns: repeat(3, auto);
+margin: auto;
+
+
+    }
